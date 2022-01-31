@@ -50,11 +50,6 @@ public class PlayerEvents : MonoBehaviour
             slowBuffSound.start();
             Invoke("PoisonOff", 5);
         }
-        else
-        {
-            Debug.Log("ALREADY POISONED");
-        }
-
     }
     public void PoisonOff()
     {
